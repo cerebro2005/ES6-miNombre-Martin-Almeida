@@ -42,9 +42,7 @@ console.log(crearAlumno('Leo', 'Messi', '32', ['TLPA','Base de Datos','Inglés']
 
 
 
-const devolverFecha = (dia, mes, anio) =>{
-    return `Hoy es ${dia}/${mes}/${anio}` ;
-}
+const devolverFecha = (dia, mes, anio) => `Hoy es ${dia}/${mes}/${anio}` ;
 
 // Mostrar el resultado por consola.
 console.log(devolverFecha('10','09','2020')) ;
