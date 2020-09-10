@@ -7,7 +7,6 @@
 
 
 
-
 const saludar = nombre => 'Hola ' + nombre;
 
 
@@ -24,21 +23,12 @@ console.log(multiplicar(3, 15)) ;
 
 
 
+const crearAlumno = (nombre, apellido, edad, materias)=>({nombre,apellido,edad,materias})
+ 
 
-const crearAlumno = (nombre, apellido, edad, materias)=>{
-    let alumno ={
-        nombre,
-        apellido,
-        edad,
-        materias
-    }
-
-    return alumno;
-}
 
 // Mostrar el resultado por consola.
 console.log(crearAlumno('Leo', 'Messi', '32', ['TLPA','Base de Datos','Inglés']));
-
 
 
 
